@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="ToolsQA.Demo.UpdateBookingTests">
+        <methods>
+          <include name="UpdateBooking_VerifyUpdatedSuccessfully"/>
+        </methods>
+      </class> <!-- ToolsQA.Demo.UpdateBookingTests -->
+      <class name="ToolsQA.Demo.CreateBookingTests">
+        <methods>
+          <include name="CreateBooking_VerifyCreatedSuccessfully"/>
+        </methods>
+      </class> <!-- ToolsQA.Demo.CreateBookingTests -->
+      <class name="ToolsQA.Demo.DeleteBookingTests">
+        <methods>
+          <include name="DeleteBooking_VerifyUpdatedSuccessfully"/>
+        </methods>
+      </class> <!-- ToolsQA.Demo.DeleteBookingTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
